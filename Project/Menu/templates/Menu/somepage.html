@@ -1,0 +1,23 @@
+{% extends 'Menu/base.html' %}
+{% load menu_tags %}
+{% block content %}
+<div class="container-fluid">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-md-4">
+            <div class="box">
+                <h2> Основное меню </h2>
+                <hr>
+                <h3> {% draw_menu 'Основное меню' %} </h3>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="box">
+                <h2> Меню Товаров </h2>
+                <hr>
+                <h3> {% draw_menu 'Меню Товаров' %} </h3>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -18,13 +18,13 @@ TreeMenuApp - древовидное меню.
 
 ## Установка
 
-git clone https://github.com/Axireerrer/TreeMenuApp.git
-сd Project
-pip install -r requirements.txt
-python manage.py makemigrations
-python manage.py migrate
-python manage.py loaddata admin.txt
-python manage.py runserver
+- git clone https://github.com/Axireerrer/TreeMenuApp.git
+- сd Project
+- pip install -r requirements.txt
+- python manage.py makemigrations
+- python manage.py migrate
+- python manage.py loaddata admin.txt
+- python manage.py runserver
 
 ## Админка
 
